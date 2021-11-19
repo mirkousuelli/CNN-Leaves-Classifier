@@ -25,7 +25,7 @@ def f1_score(y_true, y_pred):
 
 class model:
     def __init__(self, path):
-        self.model = tf.keras.models.load_model(os.path.join(path, 'SubmissionModel'), custom_objects=f1_score)
+        self.model = tf.keras.models.load_model(os.path.join(path, 'SubmissionModel'), custom_objects={'f1_score': f1_score})
 
     def predict(self, X):
         
