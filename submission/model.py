@@ -1,6 +1,8 @@
 import os
 import tensorflow as tf
 
+tfk = tf.keras
+
 def f1_score(y_true, y_pred):    
     def recall_m(y_true, y_pred):
         TP = tfk.backend.sum(tfk.backend.round(tfk.backend.clip(y_true * y_pred, 0, 1)))
@@ -23,7 +25,7 @@ def f1_score(y_true, y_pred):
 
 class model:
     def __init__(self, path):
-        self.model = tf.keras.models.load_model(os.path.join(path, 'SubmissionModel/CNN7'), custom_objects=f1_score)
+        self.model = tf.keras.models.load_model(os.path.join(path, 'SubmissionModel'), custom_objects=f1_score)
 
     def predict(self, X):
         
