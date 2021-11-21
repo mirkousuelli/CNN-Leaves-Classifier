@@ -9,7 +9,7 @@ def create_csv_rows(dataframe_dir, labels):
 			
 		for class_root_dir, class_dirs, class_files in os.walk(root_dir):
 			for file_ in class_files:
-				rows.append([file_, labels.index(root_dir.split('/')[-1]), class_root_dir[class_root_dir.find('/')+1:] + '/'])
+				rows.append([file_, labels.index(root_dir.split('/')[-1]), class_root_dir[class_root_dir.find('/')+1:] + '/' + file_])
 	return rows
             
 def write_csv_file(filename, fields, rows):
