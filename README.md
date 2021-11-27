@@ -1,6 +1,8 @@
 # Convolutional Neural Network: Leaves Classification
 Artificial Neural Networks and Deep Learning competition 2021/2022 - Politecnico di Milano.
 
+*Authors: **Fabio Tresoldi** and **Mirko Usuelli***
+
 ## 1. Introduction
 The  given  dataset  is  unbalanced  with  respect  to  theclasses  distribution,  then  we  decided  to  apply  a  StratifiedSampling  procedure  in  order  to  preserve  the  full  dataset proportions both in training, validation and testing.This  structural  characteristic  suggests  the  usage  of  theCategorical Crossentropy as loss function, whereas as metrics we kept into account accuracy and F1-score, being thelatter more meaningful for unbalanced categories.
 
