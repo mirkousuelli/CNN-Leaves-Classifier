@@ -29,7 +29,7 @@ Since   for   the   Features   Exctractor   (section   3.1)   werelied   on   St
 ### 3.1.  Features  Extractor
 We  started  comparing  the  most  famous  architectures showed during the course lectures through Transfer Learning and  a  simply  GAP  +  Softmax  layers  as  baseline  classifier. Then  we  plotted  both  Categorical  Crossentropy  loss  andAccuracy  for  the  validation  and  training  set  (dashed line) within 10 epochs:
 
-![image](/img/comparison.jpg)
+![image](/img/comparison.jpg =x250)
 
 As shown in the above figure, the best models were EfficientNet and ResNet. While the latter converges faster, the former isable  to  reach  a  higher  peak  of  performance  in  both  loss and  metrics  as  epochs  go  further.  Thus,  we  have  chosen EfficientNet as Features Extractor.
 
