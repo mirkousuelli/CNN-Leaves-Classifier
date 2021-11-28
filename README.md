@@ -19,7 +19,7 @@ CutMix,MixUp,CutOut.
 
 However,  these  last  Advance  Transformations  did  notincreased  the  overall  performance  in  our  specific  case,  butindeed,  they  made  the  training  process  slower  and  not  asaccurate  as  without  them,  therefore  we  decided  to  discardthese techniques.
 
-[image]
+![image](/img/leaves.jpg)
 
 ### 2.2.  Pre-Processing
 Since   for   the   Features   Exctractor   (section   3.1)   werelied   on   State-of-Art   architectures   through   Fine   Tuning,   the   data   pre-processing   function   adopted   is   thesame  suggested  by  the  corresponding  model  contained  in tensorflow.keras.applications.
