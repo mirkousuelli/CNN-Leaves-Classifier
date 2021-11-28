@@ -29,7 +29,7 @@ Since   for   the   Features   Exctractor   (section   3.1)   werelied   on   St
 ### 3.1.  Features  Extractor
 We  started  comparing  the  most  famous  architectures showed during the course lectures through Transfer Learning and  a  simply  GAP  +  Softmax  layers  as  baseline  classifier. Then  we  plotted  both  Categorical  Crossentropy  loss  andAccuracy  for  the  validation  and  training  set  (dashed line) within 10 epochs:
 
-[image]
+![image](/img/comparison.jpg)
 
 As shown in the above figure, the best models were EfficientNet and ResNet. While the latter converges faster, the former isable  to  reach  a  higher  peak  of  performance  in  both  loss and  metrics  as  epochs  go  further.  Thus,  we  have  chosen EfficientNet as Features Extractor.
 
@@ -38,7 +38,7 @@ As shown in the above figure, the best models were EfficientNet and ResNet. Whil
 Starting  from a  general  classifier  model,  with the  main layers  shown  during  the  course,  we  analyzed  the  performance of each of them through Transfer Learning (**see the report for details**).
 Here we show the final model we identify through several testing comparisons:
 
-[image]
+![image](/img/final.png)
 
 ## 4. Performance
 Finally,  we  generated  the  confusion  matrix  to  identifythe correctness of classification for each class with F1-score, precision and recall, on the dataset split in 60% for trainingand 20% each for validation and testing:
@@ -46,6 +46,8 @@ Finally,  we  generated  the  confusion  matrix  to  identifythe correctness of 
 - **Precision**: 99.78%
 - **Recall**: 99.75%
 - **F1-score**: 99.76%
+
+![image](/img/confusion_matrix.png)
 
 ## 5. Leadboard Evaluation
 - Development phase accuracy : **94.91%**
