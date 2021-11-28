@@ -47,7 +47,7 @@ Finally,  we  generated  the  confusion  matrix  to  identifythe correctness of 
 - **Recall**: 99.75%
 - **F1-score**: 99.76%
 
-![image](/img/confusion_matrix.png)
+![image](/img/confusion_matrix.jpg)
 
 ## 5. Leadboard Evaluation
 - Development phase accuracy : **94.91%**
