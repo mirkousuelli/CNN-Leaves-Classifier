@@ -38,7 +38,7 @@ As shown in the above figure, the best models were EfficientNet and ResNet. Whil
 Starting  from a  general  classifier  model,  with the  main layers  shown  during  the  course,  we  analyzed  the  performance of each of them through Transfer Learning (**see the report for details**).
 Here we show the final model we identify through several testing comparisons:
 
-![image](/img/final.png)
+![image](/img/final.jpg)
 
 ## 4. Performance
 Finally,  we  generated  the  confusion  matrix  to  identifythe correctness of classification for each class with F1-score, precision and recall, on the dataset split in 60% for trainingand 20% each for validation and testing:
@@ -47,7 +47,7 @@ Finally,  we  generated  the  confusion  matrix  to  identifythe correctness of 
 - **Recall**: 99.75%
 - **F1-score**: 99.76%
 
-![image](/img/confusion_matrix.png)
+![image](/img/confusion_matrix.jpg)
 
 ## 5. Leadboard Evaluation
 - Development phase accuracy : **94.91%**
