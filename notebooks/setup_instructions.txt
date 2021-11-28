@@ -1,0 +1,1 @@
+To be able to run the model it is only needed to name the dataset directory as 'leaf_dataset' and to use Data_Splitter.ipynb to generate the dataset 'leaf_dataset_splitted' which is needed by Model.ipynb.
