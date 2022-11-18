@@ -41,7 +41,7 @@ Here we show the final model we identify through several testing comparisons:
 ![image](/img/final.jpg)
 
 ## 4. Performance
-Finally,  e generated the confusion  matrix to identify the correctness of classification for each class with F1-score, precision, and recall, on the dataset split in 60% for training and 20% each for validation and testing:
+Finally, we generated the confusion  matrix to identify the correctness of classification for each class with F1-score, precision, and recall, on the dataset split in 60% for training and 20% each for validation and testing:
 - **Accuracy**: 99.77%
 - **Precision**: 99.78%
 - **Recall**: 99.75%
